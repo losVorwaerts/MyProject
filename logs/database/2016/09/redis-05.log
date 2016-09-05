@@ -1,0 +1,80 @@
+===20160905-153316,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160905-153316,rop_disconnect[525]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
+===20160905-155256,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160905-155256,rop_test_reply_type[314]=== [+][GMS_REDIS]=REDIS_REPLY_STATUS=[string] use reply->str to get data, reply->len get data len
+
+===20160905-155256,rop_disconnect[525]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
+===20160905-160059,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160905-160059,rop_test_reply_type[314]=== [+][GMS_REDIS]=REDIS_REPLY_STATUS=[string] use reply->str to get data, reply->len get data len
+
+===20160905-160059,rop_test_reply_type[329]=== [+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
+
+===20160905-160059,rop_disconnect[525]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
+===20160905-160724,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160905-160724,rop_test_reply_type[329]=== [+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
+
+===20160905-160724,rop_disconnect[525]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
+===20160905-160803,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160905-160803,rop_test_reply_type[323]=== [+][GMS_REDIS]=REDIS_REPLY_NIL=[] data not exist
+
+===20160905-161048,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160905-161048,rop_test_reply_type[323]=== [+][GMS_REDIS]=REDIS_REPLY_NIL=[] data not exist
+
+===20160905-161048,rop_get_string[1054]=== [-][GMS_REDIS]SET name1  error 
+
+===20160905-161048,rop_disconnect[525]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
+===20160905-161117,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160905-161117,rop_test_reply_type[323]=== [+][GMS_REDIS]=REDIS_REPLY_NIL=[] data not exist
+
+===20160905-161117,rop_get_string[1054]=== [-][GMS_REDIS]SET name1  error 
+
+===20160905-161117,rop_disconnect[525]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
+===20160905-161136,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160905-161136,rop_test_reply_type[329]=== [+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
+
+===20160905-161136,rop_disconnect[525]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
+===20160905-161302,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160905-161302,rop_test_reply_type[329]=== [+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
+
+===20160905-161302,rop_disconnect[525]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
+===20160905-161433,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160905-161433,rop_test_reply_type[329]=== [+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
+
+===20160905-161433,rop_disconnect[525]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
+===20160905-161541,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160905-161541,rop_test_reply_type[329]=== [+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
+
+===20160905-161541,rop_disconnect[525]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
+===20160905-161610,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160905-161610,rop_test_reply_type[329]=== [+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
+
+===20160905-161610,rop_disconnect[525]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
+===20160905-161701,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160905-161701,rop_test_reply_type[329]=== [+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
+
+===20160905-161701,rop_disconnect[525]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
