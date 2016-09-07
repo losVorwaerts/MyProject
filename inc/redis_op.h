@@ -390,8 +390,27 @@ int rop_redis_command(redisContext *conn, char *cmd);
 /* -------------------------------------------*/
 void rop_test_reply_type(redisReply *reply);
 
+/**
+ * @brief rop_set_string redis set key value 
+ *
+ * @param conn      建立好的连接
+ * @param key       key
+ * @param value     value
+ *
+ * @return      0 succ
+ *              -1 fail
+ */
 int rop_set_string(redisContext *conn, char *key, char *value);
-
+/**
+ * @brief rop_get_string    redis GET key 
+ *
+ * @param conn              建立好的连接
+ * @param key               key
+ * @param value             得到的value(需内存释放)
+ *
+ * @return                  0 succ
+ *                          -1 Fail
+ */
 int rop_get_string(redisContext *conn, char *key, char **value);
 
 
