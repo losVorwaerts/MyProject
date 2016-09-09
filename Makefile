@@ -5,10 +5,10 @@ VPATH=./src
 
 CC=gcc
 CFLAGS=-Wall -I$(WORKDIR)/inc/ -I/usr/local/include/hiredis/
-LIBS=-lhiredis -lfcgi
+LIBS=-lhiredis -lfcgi -lm
 
 #BIN=upload hiredis_test redis_test demo echo_test 
-BIN=load
+BIN=load data_cgi
 
 all:$(BIN)
 
@@ -22,7 +22,9 @@ demo:fcgi_demo.o
 	$(CC) $^ -o $@ $(LIBS)
 echo_test:echo.o
 	$(CC) $^ -o $@ $(LIBS)
-load:load.o make_log.o
+load:load.o make_log.o upload.o redis_op.o
+	$(CC) $^ -o $@ $(LIBS)
+data_cgi:data_cgi.o make_log.o redis_op.o cJSON.o
 	$(CC) $^ -o $@ $(LIBS)
 %.o:%.c
 	$(CC) $(CFLAGS) -c $< -o $@ $(LIBS)
