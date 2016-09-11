@@ -174,6 +174,7 @@ int make_file_url(char *fileid, char *fdfs_file_url)
         dup2(pfd[1],STDOUT_FILENO);
         LOG(LOAD_LOG_MODULE,LOAD_LOG_PROC,"[%s,%d]",fileid,strlen(fileid));
 
+		//多个storage，ip就不确定了
         execl("/usr/bin/fdfs_file_info","fdfs_file_info","/etc/fdfs/client.conf",fileid,NULL);
         LOG(LOAD_LOG_MODULE,LOAD_LOG_PROC,"execl err");
     }
@@ -297,6 +298,11 @@ int main ()
     while (FCGI_Accept() >= 0) {
         char *contentLength = getenv("CONTENT_LENGTH");
         int len;
+
+        char *query = getenv("QUERY_STRING");
+        
+        memset(user,0,sizeof(user));
+        query_parse_key_value(query,"user",user,NULL);
 
 		printf("Content-type: text/html\r\n"
 	    "\r\n");
